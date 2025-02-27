@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: white;
+  background-color: black;
+  user-select: none;
+}
+
+/* Hover */
+.hover-link:hover {
+  color: #ED254E;
+  text-decoration: underline;
+  transition: all;
+  opacity: 0.75;
+}
+
+/* Scroller */
+::-webkit-scrollbar {
+  height: 0;
+  width: 0;
+}
